@@ -1,0 +1,284 @@
+{
+  "type": "numeric_row",
+  "name": "numeric-pc",
+  "label": "Numeric PC",
+  "authors": [
+    "brunodavi"
+  ],
+  "direction": "ltr",
+  "arrangement": [
+    [
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 96,
+          "label": "`",
+          "popup": {
+            "relevant": [
+              {
+                "code": 126,
+                "label": "~"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 126,
+          "label": "~"
+        }
+      }
+    ],
+    [
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 49,
+          "label": "1",
+          "popup": {
+            "relevant": [
+              {
+                "code": 33,
+                "label": "!"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 33,
+          "label": "!"
+        }
+      }
+    ],
+    [
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 50,
+          "label": "2",
+          "popup": {
+            "relevant": [
+              {
+                "code": 64,
+                "label": "@"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 64,
+          "label": "@"
+        }
+      }
+    ],
+    [
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 51,
+          "label": "3",
+          "popup": {
+            "relevant": [
+              {
+                "code": 35,
+                "label": "#"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 35,
+          "label": "#"
+        }
+      }
+    ],
+    [
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 52,
+          "label": "4",
+          "popup": {
+            "relevant": [
+              {
+                "code": 36,
+                "label": "$"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 36,
+          "label": "$"
+        }
+      }
+    ],
+    [
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 53,
+          "label": "5",
+          "popup": {
+            "relevant": [
+              {
+                "code": 37,
+                "label": "%"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 37,
+          "label": "%"
+        }
+      }
+    ],
+    [
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 54,
+          "label": "6",
+          "popup": {
+            "relevant": [
+              {
+                "code": 94,
+                "label": "^"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 94,
+          "label": "^"
+        }
+      }
+    ],
+    [
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 55,
+          "label": "7",
+          "popup": {
+            "relevant": [
+              {
+                "code": 38,
+                "label": "\u0026"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 38,
+          "label": "\u0026"
+        }
+      }
+    ],
+    [
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 56,
+          "label": "8",
+          "popup": {
+            "relevant": [
+              {
+                "code": 42,
+                "label": "*"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 42,
+          "label": "*"
+        }
+      }
+    ],
+    [
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 57,
+          "label": "9",
+          "popup": {
+            "relevant": [
+              {
+                "code": 40,
+                "label": "("
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 40,
+          "label": "("
+        }
+      }
+    ],
+    [
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 48,
+          "label": "0",
+          "popup": {
+            "relevant": [
+              {
+                "code": 41,
+                "label": ")"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 41,
+          "label": ")"
+        }
+      }
+    ],
+    [
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 45,
+          "label": "-",
+          "popup": {
+            "relevant": [
+              {
+                "code": 95,
+                "label": "_"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 95,
+          "label": "_"
+        }
+      }
+    ],
+    [
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 61,
+          "label": "\u003d",
+          "popup": {
+            "relevant": [
+              {
+                "code": 43,
+                "label": "+"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 43,
+          "label": "+"
+        }
+      }
+    ]
+  ]
+}
