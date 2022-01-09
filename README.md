@@ -111,3 +111,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
+
+### Changes
+
+![keyboard_pc](https://github.com/brunodavi/florisboard/blob/demo/keyboard_pc.mp4?raw=true)
+
+Added the Gboard PC layout to the florisboard as qwerty_pc + numeric_pc
