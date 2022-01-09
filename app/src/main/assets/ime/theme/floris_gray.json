@@ -1,0 +1,82 @@
+{
+  "name": "floris_gray",
+  "label": "Floris Night Borderless (gray)",
+  "authors": [
+    "patrickgold",
+    "brunodavi"
+  ],
+  "isNightTheme": true,
+  "attributes": {
+    "window": {
+      "colorPrimary": "#FF5B5B5B",
+      "colorPrimaryDark": "#FF388E3C",
+      "colorAccent": "#FFFF9800",
+      "navigationBarColor": "@keyboard/background",
+      "navigationBarLight": "true",
+      "semiTransparentColor": "#20FFFFFF",
+      "textColor": "#FFFFFFFF"
+    },
+    "keyboard": {
+      "background": "#FF212121"
+    },
+    "glideTrail": {
+      "foreground": "#204CAF50"
+    },
+    "key": {
+      "background": "transparent",
+      "backgroundPressed": "#7F616161",
+      "foreground": "@window/textColor",
+      "foregroundPressed": "@window/textColor",
+      "showBorder": "false"
+    },
+    "key:enter": {
+      "background": "@window/colorPrimary",
+      "backgroundPressed": "@window/colorPrimaryDark",
+      "foreground": "#FFFFFFFF",
+      "foregroundPressed": "#FFFFFFFF"
+    },
+    "key:shift:capslock": {
+      "foreground": "@window/colorAccent",
+      "foregroundPressed": "@window/colorAccent"
+    },
+    "key:space": {
+      "background": "#2F616161",
+      "backgroundPressed": "#7F616161"
+    },
+    "media": {
+      "foreground": "@window/textColor",
+      "foregroundAlt": "#FFBDBDBD"
+    },
+    "oneHanded": {
+      "background": "#FF1B5E20",
+      "foreground": "#FFEEEEEE"
+    },
+    "popup": {
+      "background": "#FF757575",
+      "backgroundActive": "#FFBDBDBD",
+      "foreground": "@window/textColor"
+    },
+    "privateMode": {
+      "background": "#FFA000FF",
+      "foreground": "#FFFFFFFF"
+    },
+    "smartbar": {
+      "background": "transparent",
+      "foreground": "@window/textColor",
+      "foregroundAlt": "#73FFFFFF"
+    },
+    "smartbarButton": {
+      "background": "#FF424242",
+      "foreground": "@window/textColor"
+    },
+    "extractEditLayout": {
+      "background": "#FF282828",
+      "foreground": "@window/textColor",
+      "foregroundAlt": "#73FFFFFF"
+    },
+    "extractActionButton": {
+      "background": "@smartbarButton/background",
+      "foreground": "@smartbarButton/foreground"
+    }
+  }
+}
