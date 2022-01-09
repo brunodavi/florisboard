@@ -59,19 +59,61 @@
         "label": "p"
       },
       {
-        "$": "auto_text_key",
-        "code": 91,
-        "label": "["
+        "$": "case_selector",
+        "lower": {
+          "code": 91,
+          "label": "[",
+          "popup": {
+            "relevant": [
+              {
+                "code": 123,
+                "label": "{"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 123,
+          "label": "{"
+        }
       },
       {
-        "$": "auto_text_key",
-        "code": 93,
-        "label": "]"
+        "$": "case_selector",
+        "lower": {
+          "code": 93,
+          "label": "]",
+          "popup": {
+            "relevant": [
+              {
+                "code": 125,
+                "label": "}"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 125,
+          "label": "}"
+        }
       },
       {
-        "$": "auto_text_key",
-        "code": 92,
-        "label": "\\"
+        "$": "case_selector",
+        "lower": {
+          "code": 92,
+          "label": "\\",
+          "popup": {
+            "relevant": [
+              {
+                "code": 124,
+                "label": "|"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 124,
+          "label": "|"
+        }
       }
     ],
     [
@@ -119,6 +161,44 @@
         "$": "auto_text_key",
         "code": 108,
         "label": "l"
+      },
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 59,
+          "label": ";",
+          "popup": {
+            "relevant": [
+              {
+                "code": 58,
+                "label": ":"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 58,
+          "label": ":"
+        }
+      },
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 39,
+          "label": "\u0027",
+          "popup": {
+            "relevant": [
+              {
+                "code": 34,
+                "label": "\""
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 34,
+          "label": "\""
+        }
       }
     ],
     [
@@ -156,6 +236,63 @@
         "$": "auto_text_key",
         "code": 109,
         "label": "m"
+      },
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 44,
+          "label": ",",
+          "popup": {
+            "relevant": [
+              {
+                "code": 60,
+                "label": "\u003c"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 60,
+          "label": "\u003c"
+        }
+      },
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 46,
+          "label": ".",
+          "popup": {
+            "relevant": [
+              {
+                "code": 62,
+                "label": "\u003e"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 62,
+          "label": "\u003e"
+        }
+      },
+      {
+        "$": "case_selector",
+        "lower": {
+          "code": 47,
+          "label": "/",
+          "popup": {
+            "relevant": [
+              {
+                "code": 63,
+                "label": "?"
+              }
+            ]
+          }
+        },
+        "upper": {
+          "code": 63,
+          "label": "?"
+        }
       }
     ]
   ]
