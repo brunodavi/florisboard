@@ -114,6 +114,4 @@ limitations under the License.
 
 ### Changes
 
-![keyboard_pc](https://github.com/brunodavi/florisboard/blob/demo/keyboard_pc.mp4?raw=true)
-
-Added the Gboard PC layout to the florisboard as qwerty_pc + numeric_pc
+Added the Gboard PC layout to the florisboard as `qwerty_pc` + `numeric_pc`
