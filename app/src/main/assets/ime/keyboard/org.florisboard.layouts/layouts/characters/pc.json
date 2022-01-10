@@ -1,0 +1,290 @@
+[
+  [
+    {
+      "$": "auto_text_key",
+      "code": 113,
+      "label": "q"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 119,
+      "label": "w"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 101,
+      "label": "e"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 114,
+      "label": "r"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 116,
+      "label": "t"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 121,
+      "label": "y"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 117,
+      "label": "u"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 105,
+      "label": "i"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 111,
+      "label": "o"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 112,
+      "label": "p"
+    },
+    {
+      "$": "case_selector",
+      "lower": {
+        "code": 91,
+        "label": "[",
+          "popup": {
+            "relevant": [
+              {
+                "code": 123,
+                "label": "{"
+                }
+            ]
+              }
+          },
+          "upper": {
+            "code": 123,
+            "label": "{"
+            }
+          },
+          {
+            "$": "case_selector",
+            "lower": {
+              "code": 93,
+              "label": "]",
+              "popup": {
+                "relevant": [
+                  {
+                    "code": 125,
+                    "label": "}"
+              }
+                ]
+            }
+          },
+          "upper": {
+            "code": 125,
+            "label": "}"
+      }
+    },
+    {
+      "$": "case_selector",
+      "lower": {
+        "code": 92,
+        "label": "\\",
+        "popup": {
+          "relevant": [
+            {
+              "code": 124,
+              "label": "|"
+            }
+          ]
+        }
+      },
+      "upper": {
+        "code": 124,
+        "label": "|"
+      }
+    }
+  ],
+  [
+    {
+      "$": "auto_text_key",
+      "code": 97,
+      "label": "a"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 115,
+      "label": "s"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 100,
+      "label": "d"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 102,
+      "label": "f"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 103,
+      "label": "g"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 104,
+      "label": "h"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 106,
+      "label": "j"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 107,
+      "label": "k"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 108,
+      "label": "l"
+    },
+    {
+      "$": "case_selector",
+      "lower": {
+        "code": 59,
+        "label": ";",
+        "popup": {
+          "relevant": [
+            {
+              "code": 58,
+              "label": ":"
+            }
+          ]
+        }
+      },
+      "upper": {
+        "code": 58,
+        "label": ":"
+      }
+    },
+    {
+      "$": "case_selector",
+      "lower": {
+        "code": 39,
+        "label": "\u0027",
+        "popup": {
+          "relevant": [
+            {
+              "code": 34,
+              "label": "\""
+            }
+          ]
+        }
+      },
+      "upper": {
+        "code": 34,
+        "label": "\""
+      }
+    }
+  ],
+  [
+    {
+      "$": "auto_text_key",
+      "code": 122,
+      "label": "z"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 120,
+      "label": "x"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 99,
+      "label": "c"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 118,
+      "label": "v"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 98,
+      "label": "b"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 110,
+      "label": "n"
+    },
+    {
+      "$": "auto_text_key",
+      "code": 109,
+      "label": "m"
+    },
+    {
+      "$": "case_selector",
+      "lower": {
+        "code": 44,
+        "label": ",",
+        "popup": {
+          "relevant": [
+            {
+              "code": 60,
+              "label": "\u003c"
+            }
+          ]
+        }
+      },
+      "upper": {
+        "code": 60,
+        "label": "\u003c"
+      }
+    },
+    {
+      "$": "case_selector",
+      "lower": {
+        "code": 46,
+        "label": ".",
+        "popup": {
+          "relevant": [
+            {
+              "code": 62,
+              "label": "\u003e"
+            }
+          ]
+        }
+      },
+      "upper": {
+        "code": 62,
+        "label": "\u003e"
+      }
+    },
+    {
+      "$": "case_selector",
+      "lower": {
+        "code": 47,
+        "label": "/",
+        "popup": {
+          "relevant": [
+            {
+              "code": 63,
+              "label": "?"
+            }
+          ]
+        }
+      },
+      "upper": {
+        "code": 63,
+        "label": "?"
+      }
+    }
+  ]
+]

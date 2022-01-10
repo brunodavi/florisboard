@@ -1,0 +1,76 @@
+[
+  [
+    {
+      "code": 27,
+      "label": "escape",
+      "type": "enter_editing"
+    },
+    {
+      "code": -5,
+      "label": "fn",
+      "type": "enter_editing"
+    },
+    {
+      "code": -233,
+      "label": "voice_input",
+      "type": "enter_editing"
+    },
+    {
+      "code": -27,
+      "label": "move_start_of_line",
+      "type": "enter_editing"
+    },
+    {
+      "code": -23,
+      "label": "arrow_up",
+      "type": "enter_editing"
+    },
+    {
+      "code": -28,
+      "label": "move_end_of_line",
+      "type": "enter_editing"
+    },
+    {
+      "code": -26,
+      "label": "move_end_of_page",
+      "type": "enter_editing"
+    }
+  ],
+  [
+    {
+      "code": 9,
+      "label": "tab",
+      "type": "enter_editing"
+    },
+    {
+      "code": -1,
+      "label": "ctrl",
+      "type": "enter_editing"
+    },
+    {
+      "code": -3,
+      "label": "alt",
+      "type": "enter_editing"
+    },
+    {
+      "code": -21,
+      "label": "arrow_left",
+      "type": "enter_editing"
+    },
+    {
+      "code": -24,
+      "label": "arrow_down",
+      "type": "enter_editing"
+    },
+    {
+      "code": -22,
+      "label": "arrow_right",
+      "type": "enter_editing"
+    },
+    {
+      "code": -26,
+      "label": "move_end_of_page",
+      "type": "enter_editing"
+    }
+  ]
+]
